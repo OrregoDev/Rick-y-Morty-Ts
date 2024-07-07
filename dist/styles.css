@@ -1,0 +1,98 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;  
+}
+
+
+h1 {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 3.75rem;
+}
+
+.characters-section {
+  background-color: rgb(39, 43, 51);
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.characters-section > * {
+  flex-basis: 40%;
+  flex-grow: 1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
+  background-color: #202329;
+  margin: 20px;
+  color: white;
+  overflow: hidden;
+}
+
+.card > img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.card > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 50px;
+  padding: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.card > div > h2 {
+  margin: 0;
+}
+
+.card > div > p {
+  margin: 0;
+}
+
+#last-location {
+  display: flex;
+  flex-direction: column;
+}
+
+#last-location > h3 {
+  margin: 0;
+}
+
+#last-location > p {
+  margin: 0;
+}
+
+#first-Seen {
+  display: flex;
+  flex-direction: column;
+}
+
+#first-Seen > h3 {
+  margin: 0;
+}
+
+#first-Seen > p {
+  margin: 0;
+}
